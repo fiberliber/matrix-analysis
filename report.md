@@ -38,9 +38,23 @@ I have made some research in newest cryptography direction, called "interpretati
 -->
 ### Opensource/proprietary code and cross-platfom support
 
+Main difference between opensource and proprietary code license is in dev team responsibility and contribution style in a project development. Often proprietary code teams have more responsibility, in comparison to opensource, because all support and integration processes often are paid, or depend on dev team access to the clients data. Closed code have only one advantage over open - keeping a know-how's in a secret, which can give to the company technical advantages only if that technology really have no alternatives. 
 
+In most cases, making a code open, and lisensin it as free software, allow teams lagging behind the technical leader, teams lagging behind the technical leader, quickly attract a community of enthusiasts to the development, if the project is interesting enough in itself, and if it is also [monetized](https://thenewstack.io/options-for-monetizing-your-open-source-project/), or when using the project code in many other projects (libraries, modules, scripts, etc.), additional motivation appears, helping not only to attract many interested humans, but also to get high-level professionals into contributors.
+
+Another difference, that in propietary model, cross-platform project wxpansion created by employees of some company, which depend on grow often hight paided staff count, but in opensource model, expansion can be maded and by core team, and by some other developers, or even companies, which interested in additional platforms support.
+
+`element model proc:`
+
+It is opensource and that allow element grows quickly and cover many platforms, thanks to the work of many independent teams, at the same time, the monetization model for corporate clients (EMS) allows them to create additional motivation for project participants
+
+`element model cons:` 
+
+No cons - all cool
 
 ### Integrations and architecture
+
+
 ### Target audience and limitations
 <!-- users, group chats and virtual servers (rooms, organizations, etc) -->
 ### Usability (UI/UX), support and Documentation
