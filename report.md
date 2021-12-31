@@ -60,9 +60,25 @@ No cons - all cool
 
 ### Integrations and architecture
 
+Architecture of any droup chat platforms, usually assumes the presence of such functional as privat chats, group chats, ability to create dedicated multirooms space for come project, or orfanization, or just a people group with common interests and accorfing to that interests propose variouse integrations with third side online services for different purpose, like a games, project management, collaboration tools, internationalization, financial instruments and so on. This is obliges a platforms to have a very complex architecture, with back end, powered by different databases with flexible unordinal data scheme, supporting a lot of side API's and very flexible extansible front end.
+
+`element model proc:`
+
+Main element architecture preferrencies is distributed synapse nodes network behind the scene, which makes whole ecosystem very resilent and diversified, Also a services specialization principle, in a base of division on main nodes, identify services and bridges, make system more simple and provide easy support and system enhancement. Opensource integrations API open a ways for riachment additional functionality ecosystem, but...
+
+`element model cons:` 
+
+Element integrations don't use integration managers and API aggregators, relying only on matrix developed code and this is limit interoperability with third side solutions.
+
+`how element integrations can be improved:`
+
+In addition to own realisation of side services API, good idea will be integrate with [API aggregators](https://www.tecmint.com/open-source-api-gateways-and-management-tools/), which already containse ready to use implementations of high count of variouse services and provide unified API to interact with they are
+
 <hr/>
 
 ### Target audience and limitations
+
+
 
 <!-- users, group chats and virtual servers (rooms, organizations, etc) -->
 <hr/>
