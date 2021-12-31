@@ -25,13 +25,20 @@ In this sense, element have a great advantage over such platforms, because provi
 
 `element security cons:`
 
-Device verification, used in element, is a partialy method for prevent very pure permanent MITM attack, and using double ratched keys derivation is good principle for prevent MITM intrusion, in middle of data exchange process, but all that tools unefficient versus permanent AI powered MITM, which able to deep analyse intercepted traffic on a fly, include media data recognition, machine learning and complex media generation (deep fake algorithms).
+Device verification, used in element, is a partialy method for prevent very pure permanent MITM attack, and using double ratched keys derivation is good principle for prevent MITM intrusion in middle of data exchange process, but all that tools unefficient versus permanent AI powered MITM, which able to deep analyse intercepted traffic on a fly, include media data recognition, machine learning and complex media generation (deep fake algorithms).
 
 `how element security can be improved:`
 
-For improve element security I strongly recommend to distribute clients with predefined CA signatures and add publick keys an shared keys signing for additionally ensure end-to-end trust. Also, for future security versus quantum computation powered MITM, allready have a sense to change shared secret exchange algorithm from ECDH to SIDH 
+For improve element security I strongly recommend to distribute clients with predefined CA signatures and add public keys and shared keys signing for additionally ensure end-to-end trust. Also, for future security versus quantum computation powered MITM, allready have a sense to change shared secret exchange algorithm from ECDH to [SIDH](https://en.wikipedia.org/wiki/Supersingular_isogeny_key_exchange) 
+
+`what R&D can be initiated for enhance element cryptography:`
+
+I have made some research in newest cryptography direction, called "interpretative cryptography", which look on a key not as on passive data, used for mixing with clear text for encryption, or signing, but as unique random algorythm as is. In the base of idea a fact, that we can interpriate any arbitrary sequence of bytes as some algorythm by endless count of interpretation methods (IM). This is mean, that we can sync, using SIDH keys exchange IM's on remote sides, and then even derive for some encrypted data other IM, which can adopt encrypted data for direct reencryption in a form, encrypted by other key, whithout needs to decrypt it in open form. This is very early experimental technology, which should be deep researched a lot, but that have a potential to meke a revolution in a cryptography globally. For example, In a current standards, every E2EE channel use a some wellknown block cypher algorythm for every keys pair, but in concept of interpretative cryptography, for each keys pair will be generated unique block cypher algorithm, defined only by sequence of bytes in a concreat shared secret and works using an unique fresh festel network realization, unlike anything known, like AES, chacha20, polypoly and so on. Nice property of that technique is this block cypher works as a streaming encryption, which can encrypt or decrypt data on a fly and stay a quantum resisted. Main R&D in that cryptography type is found asymmetric interpretative keys exchange (as a replacement of SIDH), which can be multitenant (support any quantity of encrypted data exchange participants) without exponential grows of same data encryption forms and without needs of common shared key transfers (in combination of [dinner cryptographers principle](https://en.wikipedia.org/wiki/Dining_cryptographers_problem))
 
 ### Opensource/proprietary code and cross-platfom support
+
+
+
 ### Integrations and architecture
 ### Target audience and limitations
 <!-- users, group chats and virtual servers (rooms, organizations, etc) -->
