@@ -50,11 +50,12 @@ Another difference, that in propietary model, cross-platform project expansion s
 
 `element model proc:`
 
-It is opensource and that allow element grows quickly and cover many platforms, thanks to the work of many independent teams, at the same time, the monetization model for corporate clients (EMS) allows them to create additional motivation for project participants
+It is opensource and available for absolutely free usage - that allows element grows quickly and cover many platforms, thanks to the work of many independent teams, at the same time, the [monetization model](https://element.io/matrix-services/ems-pricing) allows them to create additional motivation for project participants
 
 `element model cons:` 
 
 No cons - all cool
+
 <hr/>
 
 ### Integrations and architecture
