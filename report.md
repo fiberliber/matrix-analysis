@@ -19,9 +19,15 @@ Most platforms use SSL/TLS for data protection and do not use E2EE principles fo
 However, centralised security allow that organization leverage user access to data and services, because all interactions should be signed by centralized controlled CA.
 Other cons of that type of security, is compromized user local trusted CA database and in generaly necessary to trust that authority centers in cases if some from that will be compromized itself.
 
+`element security proc:`
+
 In this sense, element have a great advantage over such platforms, because provide to the users a way for establish secured channels, independent from central authority, but this nuanse is a medal with two sides: central authoryty need for ultimative MITM prevention and currently is once known way for [two generals problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem) solution.
 
+`element security cons:`
+
 Device verification, used in element, is a partialy method for prevent very pure permanent MITM attack, and using double ratched keys derivation is good principle for prevent MITM intrusion, in middle of data exchange process, but all that tools unefficient versus permanent AI powered MITM, which able to deep analyse intercepted traffic on a fly, include media data recognition, machine learning and complex media generation (deep fake algorithms).
+
+`how element security can be improved:`
 
 For improve element security I strongly recommend to distribute clients with predefined CA signatures and add publick keys an shared keys signing for additionally ensure end-to-end trust. Also, for future security versus quantum computation powered MITM, allready have a sense to change shared secret exchange algorithm from ECDH to SIDH 
 
