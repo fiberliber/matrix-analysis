@@ -21,7 +21,7 @@ Other cons of that type of security, is compromized user local trusted CA databa
 
 `element security proc:`
 
-In this sense, element have a great advantage over such platforms, because provide to the users a way for establish secured channels, independent from central authority, but this nuanse is a medal with two sides: central authoryty need for ultimative MITM prevention and currently is once known way for [two generals problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem) solution.
+In this sense, element have a great advantage over such platforms, because provide to the users a way for establish secured channels, independent from central authority, but this nuanse is a medal with two sides: central authoryty needed for ultimative MITM prevention and currently is once known way for [two generals problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem) solution.
 
 `element security cons:`
 
