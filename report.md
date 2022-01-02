@@ -82,7 +82,7 @@ Don't looking on a fact, that group chats very usable for many specialized purpo
 
 `element model proc:`
 
-Having a decentralized back end infrastructure and advanced E2EE capabilities, element attracts a users, for which important a confidense, privacy and censorship resistant, so, independent on working shpere of that users, orientation on secured conversation makes a competitive advantage for it. Also element have no some concreate defined strategy for some segment and positioned as universal solution, which is much closest to truth, because on a practice, any group chat used for many different purposes
+Having a decentralized back end infrastructure and advanced E2EE capabilities, element attracts a users, for which important a confidense, privacy and censorship resistant, so, independent on working shpere of that users, orientation on secured conversation makes a competitive advantage for it. Also element have no some concreate defined strategy for some dedicated specifical segment and positioned as universal solution, which is much closest to truth, because on a practice, any group chat used for many different purposes
 
 `element model cons:` 
 
@@ -92,4 +92,12 @@ On the other hand, it is easier to promote a product aimed at a narrow audience 
 
 ### Usability (UI/UX), support and Documentation
 
+In general all group chat solutions have a very similar interface, and any user, which have an experience with one platform can easy start using other. Main interface elements are chat window (room), contacts list, chats list, list of virtual servers, settings and search tools and often they are even distributed over platform workspace very similar. Other user experiece related nuances is a how reach message formatting can be used in conversation, files and media exchange, streaming and realtime media conversations, and contacts exchange. All that functional can be extended using variouse integrations. All that makes a group chats UI's very complex and every platform straight must have operative suppord and should be well docummented.
 
+`element model proc:`
+
+Element have a typical intuitive interface, which can be easily mastered by the user using the poke method. Element UI have a translations on many languges. In the rooms search users can easy found variouse support chats, from basic help oriented to advanced development support and this is possible because element have strong big community and often even help provided by enthusiasts in additional to element dev team.
+
+`element model cons:` 
+
+It is strange, but element have not so good docummentation. So, basic usage, protocol, API's are well docummented, but for example integrations have not so good documentation and instead UI, documentations have significant less translations.
