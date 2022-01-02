@@ -82,7 +82,7 @@ Don't looking on a fact, that group chats very usable for many specialized purpo
 
 `element model proc:`
 
-Having a decentralized back end infrastructure and advanced E2EE capabilities, element attracts a users, for which important a confidense, privacy and censorship resistant, so, independent on working shpere of that users, orientation on secured conversation makes a competitive advantage for it. Also element have no some concreate defined strategy for some segment and positioned as universal solution, which is much closest to truth, because on a practice, any group chat used for any purpose
+Having a decentralized back end infrastructure and advanced E2EE capabilities, element attracts a users, for which important a confidense, privacy and censorship resistant, so, independent on working shpere of that users, orientation on secured conversation makes a competitive advantage for it. Also element have no some concreate defined strategy for some segment and positioned as universal solution, which is much closest to truth, because on a practice, any group chat used for many different purposes
 
 `element model cons:` 
 
