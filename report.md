@@ -78,9 +78,16 @@ In addition to own realisation of side services API, good idea will be integrate
 
 ### Target audience and limitations
 
+Don't looking on a fact, that group chats very usable for many specialized purposes, usually leaders of market positioning self products as oriented on some target audience. For example Slack sade that this is oriented on a business collaboration, discord is mostly oriented on gamers coversation and so on, but and slack and discord very often used for organize productive IT teams collaboration. This is depend on business model of group chat and defines some limitations of free version in comparizon to enterprize paid service, which calculated in cost per user. Also that orientation define a mostly used side services for integrate with, accordingly slack mostly integrates with collaborative tools, like project management, version control systems, time trackings and so on, and discord point most attention on integrations with streaming services, like youtube, twich, variouse leaderboards, etc.
 
+`element model proc:`
 
-<!-- users, group chats and virtual servers (rooms, organizations, etc) -->
+Having a decentralized back end infrastructure and advanced E2EE capabilities, element attracts a users, for which important a confidense, privacy and censorship resistant, so, independent on working shpere of that users, orientation on secured conversation makes a competitive advantage for it. Also element have no some concreate defined strategy for some segment and positioned as universal solution, which is much closest to truth, because on a practice, any group chat used for any purpose
+
+`element model cons:` 
+
+On the other hand, it is easier to promote a product aimed at a narrow audience than a wide one. This is a controversial issue that requires a detailed comparative marketing research
+
 <hr/>
 
 ### Usability (UI/UX), support and Documentation
